@@ -9,4 +9,5 @@
 
 //Console.Read();
 
-https://medium.com/@yigitcanolmez/jenkins-nedir-ne-i%CC%87%C5%9Fe-yarar-47964526a968
+Console.WriteLine();
+//https://medium.com/@yigitcanolmez/jenkins-nedir-ne-i%CC%87%C5%9Fe-yarar-47964526a968
