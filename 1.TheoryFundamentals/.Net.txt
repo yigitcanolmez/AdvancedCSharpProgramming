@@ -1,0 +1,17 @@
+.NET bizim uygulamalar geliþtirmemizi saðlayan bir platformdur.
+kütüphanelerin yer aldýðý frameworkler kullanýlýr.
+
+platformdan kastým ise bir uygulama veya yazýlým geliþtirmek için gerekli olan ortamý saðlayan parçalardan meydana gelir.
+
+.NET CLR ve FCL tarafýndan oluþur;
+
+CLR Common Language Runtime
+daha önceden tanýmlanmýþ komutlarla iþletim sistemi arasýnda arayüz göre görerek,
+Il yani Intermediate Language ile yazýlmýþ komutlarýn çalýþmasýný saðlar.
+
+Ayný zamanda .NET sayesinde farklý diller ile geliþtirmeler yapabiliyoruz.
+
+IL ve CLS yani Common Language Specification yapýsýnýda geliþtirmiþtir.
+
+developer command prompt ile ILDASM yazarak açýlan uygulamadan, yazmýþ olduðun uygulamanýn, IL ile yazýlmýþ formatýna gidebilirsin mükemmel deðil mi?
+
