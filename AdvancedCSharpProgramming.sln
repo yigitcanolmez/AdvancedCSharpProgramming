@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.Basics", "2.Basics\2.Basi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ILDASM", "ILDASM\ILDASM.csproj", "{DC622403-43B7-4462-8EB9-BFC4B9E1C080}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.OOP", "3.OOP\3.OOP.csproj", "{469D2A3B-073A-4710-8B5F-884B69B08D7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.OOP", "3.OOP\3.OOP.csproj", "{469D2A3B-073A-4710-8B5F-884B69B08D7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.Design Patterns", "4.Design Patterns\4.Design Patterns.csproj", "{3B343E8F-C45E-49F3-BC8C-DDA1B870011F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{469D2A3B-073A-4710-8B5F-884B69B08D7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{469D2A3B-073A-4710-8B5F-884B69B08D7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{469D2A3B-073A-4710-8B5F-884B69B08D7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B343E8F-C45E-49F3-BC8C-DDA1B870011F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B343E8F-C45E-49F3-BC8C-DDA1B870011F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B343E8F-C45E-49F3-BC8C-DDA1B870011F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B343E8F-C45E-49F3-BC8C-DDA1B870011F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
