@@ -5,7 +5,7 @@ using System.Threading.Channels;
 
 namespace _4.Design_Patterns.Creational_Design_Pattern
 {
-    public class FactoryMethodDesignPattern
+    public class FactoryMethodAbstract
     {
         //public class IslakHamburger
         //{
