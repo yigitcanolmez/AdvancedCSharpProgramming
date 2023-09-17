@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-//using static _4.Design_Patterns.Creational_Design_Pattern.FactoryMethodAbstract;
+﻿//using static _4.Design_Patterns.Creational_Design_Pattern.FactoryMethodAbstract;
 
 //Console.WriteLine("Hello, World!");
 
@@ -41,6 +40,11 @@ patso.Siparis();
 
 #endregion
 
+#region WhyBuilder
+
+
+
+#endregion
 
 
 
@@ -49,8 +53,23 @@ patso.Siparis();
 
 
 
+using static _4.Design_Patterns.Creational_Design_Pattern.BuilderPattern.BuilderDesignPattern;
 
+Food italinaFood = new ItalianFood.ItalianFoodBuilder().SetName("Pizza")
+                                                   .SetPrice(79.99)
+                                                   .SetIsSpicy(true)
+                                                   .SetFoodType(FoodType.ItalianFood)
+                                                   .Build();
 
+Food fastFood = new FastFood.FastFoodBuilder().SetName("Hamburger")
+                                              .SetFoodType(FoodType.ItalianFood)
+                                              .SetPrice(129.99)
+                                              .Build();
+
+Console.WriteLine($"{fastFood.Name} {fastFood.Price} {fastFood.FoodType}");
+
+var spicy = italinaFood.IsSpicy ? "spicy" : string.Empty;
+Console.WriteLine($"{italinaFood.Name} {italinaFood.Price} {italinaFood.FoodType} {spicy}");
 
 
 
