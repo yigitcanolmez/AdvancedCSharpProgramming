@@ -1,78 +1,89 @@
-﻿//const double pi = 3.14;
+﻿
+//int a = 2;
+//int b =3;
+// a= b;
+//Console.WriteLine(a);
+//Console.WriteLine(b);
 
-//Console.Write("Radius Value :");
-//int radius = int.Parse(Console.ReadLine());
-
-//var area = pi * radius * radius;
-
-//Console.WriteLine(area);
-
-//Console.Read();
-
-Console.WriteLine();
-//https://medium.com/@yigitcanolmez/jenkins-nedir-ne-i%CC%87%C5%9Fe-yrar-47964526a968
+//int karesiAlinmisSayi = KaresiniAl(a);
 
 
 
+//Console.WriteLine(karesiAlinmisSayi);
 
-
-
-
-//Food pasta = new Food(foodType: FoodType.FastFood,
-//                      name: "Yiqido Special",
-//                      price: 99.90,
-//                      isSpicy: false);
-
-//Food sushi = new Food(FoodType.ChineseFood,
-//                      "SUSHİ",
-//                      129.99,
-//                      true);
-
-//pasta.Prepare();
-//sushi.Prepare();
-
-
-
-
-
-
-
-
-
-//public class Food
+//int KaresiniAl(int sayi)
 //{
-//    private FoodType _foodType { get; set; }
-//    private string _name { get; set; }
-//    private double _price { get; set; }
-//    private bool _isSpicy { get; set; }
-
-//    public Food(FoodType foodType, string name, double price, bool isSpicy)
-//    {
-//        _foodType = foodType;
-//        _name = name;
-//        _price = price;
-//        _isSpicy = isSpicy;
-//    }
-
-//    public void Prepare()
-//    {
-//        var spicy = _isSpicy ? "Spicy" : string.Empty;
-
-//        _ = _foodType switch
-//        {
-//            FoodType.FastFood => Console.WriteLine($"{nameof(FoodType.FastFood)} {_name} {_price} {spicy}"),
-//            FoodType.ItalianFood => Console.WriteLine($"{nameof(FoodType.ItalianFood)} {_name} {_price} {spicy}"),
-//            FoodType.VeggieFood => Console.WriteLine($"{nameof(FoodType.VeggieFood)} {_name} {_price} {spicy}"),
-//            FoodType.ChineseFood => Console.WriteLine($"{nameof(FoodType.ChineseFood)} {_name} {_price} {spicy}"),
-//            _ => Console.WriteLine("Error")
-//        };
-//    }
+//    return sayi * sayi;
 //}
 
-//public enum FoodType
+//string Sehir = "İstanbul";
+//string plakamiz = PlakaVer(Sehir);
+
+//string PlakaVer(string il)
 //{
-//    FastFood,
-//    ItalianFood,
-//    VeggieFood,
-//    ChineseFood
+//    il += " 34 FB 1907";
+//    return il;
 //}
+
+//Console.WriteLine(Sehir);
+
+
+int a = 31;
+int toplaXtendönendeğer = ToplaX(a);
+
+Console.WriteLine(toplaXtendönendeğer);
+Console.WriteLine(a);
+
+
+Console.ReadLine();
+
+int ToplaX(int sayilar)
+{
+    sayilar = 1;
+
+    int total = sayilar + sayilar;
+
+    return total;
+}
+
+int[] deneme = new int[] { 1, 22, 11, 8, 99 };
+
+foreach (int item in deneme)
+{
+    Console.WriteLine(item);
+
+}
+int dizininToplamı = Topla(deneme);
+
+Console.WriteLine("sonuç =" + dizininToplamı);
+
+
+foreach (int item in deneme)
+{
+    Console.WriteLine(item);
+
+}
+
+/*
+ * 31
+ * 1
+ * 22
+ * 10
+ * 8
+ * 100
+ * 
+ */
+
+
+int Topla(int[] sayilar)
+{
+    int total = 0;
+
+    for (int i = 0; i < sayilar.Length; i++)
+    {
+        sayilar[i] = i * i * 2;
+
+        total = total + sayilar[i];
+    }
+    return total;
+}
